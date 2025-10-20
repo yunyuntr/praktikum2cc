@@ -16,7 +16,7 @@ pipeline {
           bat "docker tag %IMAGE_NAME%:%BUILD_NUMBER% %IMAGE_NAME%:latest" 
           bat "docker push %IMAGE_NAME%:latest" 
         } 
-      } 
-    } 
-  } 
+      }
+}
+}
 }
